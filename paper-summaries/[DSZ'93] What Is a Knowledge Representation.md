@@ -49,7 +49,36 @@ The notion of a KR may be best described by its five roles:
 
 ### Role 1: A Surrogate
 
+**An inescapable fact:** the process of reasoning happens internally but most things to reason about exist only externally.
+
+- Therefore a representation plays a fundamental role as a stand-in within the reasoner, for things that happen in in the external world.
+
+Viewing representations as surrogates leads to two important questions:
+
+1. **The intended identity:** What is the surrogate for? There must be some form of correspondence specified between the surrogate and its intended referent in the real world.
+2. **Fidelity:** What attributes of the original does a the surrogate capture or omit? Necessarily, there will be simplifying assumptions and artifacts.
+
+Representations seem to serve equally well for tangible and intangible objects. 
+
+It is also important to note that formal objects (e.g. mathematical constructs) can exist in a representation with perfect fidelity, even though many representations are made for *natural objects*, for which perfect fidelity is practically impossible.
+
+- Any form of reasoning is guaranteed to err if it reasons long and broadly enough.
+- A sound inference does not free reasoning from error, it only prevents inference from being the source of the error
+- Choosing a representation is about balancing its sources of error against the gains it might offer. 
+
 ### Role 2: A Set of Ontological Commitments
+
+These commitments are a set of decisions about how we see the world, a strong pair of glasses that bring some part of the world into sharp focus at the expense of blurring out other parts. 
+
+- *This is a feature:* it manages the overwhelming complexity of the world it represents.
+- E.g. ontology for liquids (Hayes '98), lumped element circuit model, programming.
+- The essential information is not the form of the language and its specifics but its content, or the set of concepts offered.
+
+Commitment begins with the earliest choices, accumulate in layers, and are finally instantiated. 
+
+- E.g. prototypical diseases => taxonomy indexed around organ systems => inclusion as a "disease", hierarchy, etc.
+
+**A knowledge representation is not a data structure.**
 
 ### Role 3: A Fragmentary Theory of Reasoning
 
